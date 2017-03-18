@@ -1,0 +1,49 @@
+/*nav.css for nav*/
+
+.section1{
+	//background: blue;
+	margin-top: 2%;
+	margin-bottom: 5%
+}
+
+.section1 h1{
+	font-family: 'Helvetica', sans-serif;
+	font-size: 35px;
+	color: black;
+	text-align: center;
+	padding: 3%;
+}
+
+.section1 .displayTable{
+	margin: 0px auto;
+	//background: yellow;
+	border-collapse: collapse;
+}
+
+.displayTable, .displayTable td, .displayTable th{
+	border: 1px solid black;
+	font-family: 'Helvetica', sans-serif;
+	font-size: 20px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.displayTable td, .displayTable th{
+	padding: 10px;
+}
+
+
+tr:nth-child(1){
+	background: #fbd7d1;
+}
+
+.rankTable td:last-child::after{
+	content: "%";
+}
+
+.loggedIn{
+	background: #fbd7d1;
+}
+
+
+

@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "../submissions/848.py", line 8, in <module>
+    n, k = map(int, raw_input().split())
+ValueError: need more than 1 value to unpack
+FINISHED CPU 0.00 MEM 0 MAXMEM -1 STALE 0 MAXMEM_RSS -1
